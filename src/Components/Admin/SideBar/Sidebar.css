@@ -1,0 +1,15 @@
+.admin-logo img {
+    width: 100%;
+}
+
+.list-table{}
+.list-table table{
+    text-align: center;
+    width: 100%;
+}
+.list-table table thead tr{
+    background: #111;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 20px;
+}

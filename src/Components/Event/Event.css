@@ -1,0 +1,26 @@
+.event-container{
+    padding-top: 200px;
+}
+.event-box{
+    background: #fff;
+    box-shadow: 0 0 10px -3px #111;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.event-box .event-img{
+    width: 29%;
+}
+.event-box .event-img  img{
+    width: 100%;
+}
+.event-content{
+    width: 60%;
+}
+.event-content .title{}
+.event-content .date{}
+.event-content .cancel{
+    text-align: right;
+}

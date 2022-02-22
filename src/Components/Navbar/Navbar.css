@@ -1,0 +1,52 @@
+.navbar-main {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    padding-top: 60px;
+}
+.navbar-main > *{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {}
+
+.navbar-logo a {}
+
+.navbar-logo a img {
+    width: 200px;
+}
+
+.navbar-menu {}
+
+.nav-menu {}
+
+.nav-menu li {
+    list-style: none;
+ display: inline-block;
+ padding: 5px 10px;
+}
+
+.nav-menu li a {
+    color: #111;
+    display: inline-block; 
+    text-decoration: none;
+} 
+
+.navbar-btn {}
+
+.primary-btn {
+    display: inline-block;
+    color: #fff;
+    background: rgb(29, 220, 253);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 4px 10px;
+    text-decoration: none;
+    border: none;
+}
+.primary-btn.dark{
+    background: #111;
+}
